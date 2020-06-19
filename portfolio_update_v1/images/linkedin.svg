@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generate more at customizr.net -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg id="linkedin" class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"><circle class="outer-shape" cx="50" cy="50" r="48" style="opacity: 1; fill: rgb(3, 153, 255);"></circle>
-	<path class="inner-shape" style="opacity:1;fill:#f7f7f7;" transform="translate(25,25) scale(0.5)" d="M82.539,1H17.461C8.408,1,1,8.408,1,17.461v65.078C1,91.592,8.408,99,17.461,99h65.078C91.592,99,99,91.592,99,82.539 V17.461C99,8.408,91.592,1,82.539,1z M37.75,80.625H25.5V37.75h12.25V80.625z M31.625,31.625c-3.383,0-6.125-2.742-6.125-6.125 s2.742-6.125,6.125-6.125s6.125,2.742,6.125,6.125S35.008,31.625,31.625,31.625z M80.625,80.625h-12.25v-24.5 c0-3.383-2.742-6.125-6.125-6.125s-6.125,2.742-6.125,6.125v24.5h-12.25V37.75h12.25v7.606c2.526-3.47,6.389-7.606,10.719-7.606 c7.612,0,13.782,6.856,13.782,15.312L80.625,80.625L80.625,80.625z"></path>
+<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#67606E;}
+	.st1{fill:#F7F7F7;}
+</style>
+<circle class="st0" cx="50" cy="50" r="48"/>
+<path class="st1" d="M66.3,25.5H33.7c-4.5,0-8.2,3.7-8.2,8.2v32.5c0,4.5,3.7,8.2,8.2,8.2h32.5c4.5,0,8.2-3.7,8.2-8.2V33.7
+	C74.5,29.2,70.8,25.5,66.3,25.5z M43.9,65.3h-6.1V43.9h6.1V65.3z M40.8,40.8c-1.7,0-3.1-1.4-3.1-3.1c0-1.7,1.4-3.1,3.1-3.1
+	s3.1,1.4,3.1,3.1C43.9,39.4,42.5,40.8,40.8,40.8z M65.3,65.3h-6.1V53.1c0-1.7-1.4-3.1-3.1-3.1s-3.1,1.4-3.1,3.1v12.2h-6.1V43.9h6.1
+	v3.8c1.3-1.7,3.2-3.8,5.4-3.8c3.8,0,6.9,3.4,6.9,7.7L65.3,65.3L65.3,65.3z"/>
 </svg>
-

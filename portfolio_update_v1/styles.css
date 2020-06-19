@@ -1,3 +1,9 @@
+/* Website colors:
+  #F6EBD2 - light yellow
+  #FEDDD3 - light orange
+  #C6C0CC - light purple
+*/
+
 /* Global Layout Set-up */
 * { 
   box-sizing: border-box;
@@ -15,17 +21,21 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #fff;
 }
 a:hover {
   color: #6633ff;
+}
+
+.link-email {
+  color: #333;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #333;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -52,12 +62,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #F3D0CC;
 }
 
-header {
+header{
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/portland.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,23 +80,31 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 10px solid;
+  border: 8px solid rgb(243,208,204);
+  transition: all .7s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  /* transform: scale(1.2) rotate(5deg); Original transform property*/
+  transform: rotate(20deg);
 }
+
+h1 {
+  margin-top: 60px;
+  font-family: 'Work Sans', sans-serif;
+}
+
 .tag {
   background-color: #efefef;
-  color: black;
+  color: #67606E;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #67606E;
+  color: #fff;
 }
 .card {
   margin: 30px;
@@ -99,7 +117,13 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #F3D0CC;
+}
+
+.card-contact {
+  margin-top: 60px;
+  background-color: #F2E1DF;
+  color: #333;
 }
 
 ul.skills {
@@ -110,14 +134,23 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #67606E;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #F3D0CC;
+}
+
+.card img {
+  height: 250px;
+}
+
+.mockup-1 {
+  margin-top: 30px;
+  width: 50%;
 }
 
 footer {
@@ -148,11 +181,13 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
   transition: all .5s;
 }
 a.twitter {
   background-image: url(images/twitter.svg);
+}
+a.instagram {
+  background-image: url(images/instagram.svg);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
@@ -160,8 +195,11 @@ a.linkedin {
 a.github {
   background-image: url(images/github.svg);
 }
+a.heart {
+  background-image: url(images/heart.svg);
+}
 a.social:hover {
-  opacity: 1;
+  opacity: .3;
 }
 .clearfix {
   clear: both;
